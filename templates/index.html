@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} Home {% endblock title %}
+
+
+
+
+{% block content %}
+    <div class="col-md-10 text-center text-white">
+        <div class="text-center my-5">
+            <img src="{% static 'images/pic.jpg' %}" class="img-thumbnail w-25" alt="profile image">
+        </div>
+        <div class="d-flex justify-content-start" style="margin-left: 15%;">
+            <h2 style="font-family: 'Dancing Script', cursive;">Hello,</h2>
+        </div>
+        <div class="d-flex justify-content-center">
+            <p class="w-75"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate magni delectus asperiores
+                ducimus
+                similique. Omnis reprehenderit debitis fugiat porro, blanditiis est possimus odio maxime
+                reiciendis
+                velit, minus sunt perferendis mollitia nam veniam dolorem et, facilis neque voluptas deleniti
+                aliquid. Excepturi enim expedita mollitia dicta velit sapiente aspernatur facere tempore, culpa
+                ut.
+                Suscipit ullam, perspiciatis aut corrupti facere corporis exercitationem est, unde, explicabo
+                fuga
+                obcaecati itaque animi inventore officia aspernatur rem ad similique eos? Consequuntur
+                perferendis
+                non iste fuga ut distinctio labore vitae, dolorum magni atque voluptatum asperiores hic tempora
+                ipsam laborum facilis natus, incidunt, nobis omnis tenetur qui nihil numquam?</p>
+            </div>
+            <a class="btn btn-outline-success my-3 mx-2" href="tel: +91 7042865800" >Call</a>
+            <a class="btn btn-outline-danger my-3 mx-2" href="mailto:gourav.singh9871@gmail.com" >Mail</a>
+            {% comment %} <a class="btn btn-outline-danger my-3 mx-2" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >Contact</a> {% endcomment %}
+    </div>
+{% endblock content %}
+
